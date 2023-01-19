@@ -1,0 +1,187 @@
+:root {
+    --shade-01: #04060a;
+    --shade-02: #16171A;
+    --shade-03: #d4b03a;
+    --shade-04: #de79f1;
+    --shade-05: #ffffff;
+    --shade-06: #626262;
+    --shade-07: #4343437a;
+    --font-poppins: 'Poppins', sans-serif;
+    --font-orbitron: 'Orbitron', sans-serif;
+}
+
+body {
+    background-color: var(--shade-02);
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 48px;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+h4 {
+    font-size: 32px;
+}
+
+h5 {
+    font-size: 24px;
+}
+
+h6 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.menu.navbar {
+    background-color: var(--shade-02);
+    font-family: var(--font-poppins);
+}
+
+.links {
+    padding: 0px;
+    gap: 30px;
+    margin: 0.5% 8% 0.5% 5%;
+    font-size: 16px;
+}
+
+.links.navbar-nav .nav-link.active,
+.navbar-nav .show>.nav-link {
+    color: var(--shade-04);
+    border-bottom: 2px var(--shade-04) solid;
+}
+
+.btn-outline-warning {
+    color: var(--shade-03);
+    border: 2px var(--shade-03) solid;
+    border-radius: 80px;
+}
+
+.btn-outline-warning:hover {
+    background-color: var(--shade-03);
+    border: 2px var(--shade-03) solid;
+    color: var(--shade-05);
+}
+
+.header {
+    color: var(--shade-05);
+    background: var(--shade-02) url(/images/worldMapVectors.svg) center center/cover no-repeat;
+    font-family: var(--font-orbitron);
+    height: 950px;
+}
+
+.textButton h2 {
+    color: var(--shade-04);
+}
+
+.btn-outline-light {
+    color: var(--shade-05);
+    border: 2px var(--shade-05) solid;
+    border-radius: 80px;
+    font-family: var(--font-poppins);
+}
+
+.btn-outline-light:hover {
+    background-color: var(--shade-05);
+    border: 2px var(--shade-05) solid;
+    color: var(--shade-04);
+}
+
+.frase {
+    font-family: var(--font-poppins);
+    margin-top: 15%;
+}
+
+.fraseShade03 {
+    color: var(--shade-03);
+}
+
+.fraseShade04 {
+    color: var(--shade-04);
+}
+
+.textAboutPampa {
+
+    gap: 10px;
+}
+
+.textAboutPampa .aboutBackground {
+    background: var(--shade-02) url(/images/largeMagentaPixels.svg) center center/contain no-repeat;
+}
+
+.textAboutPampa h4 {
+    font-family: var(--font-orbitron);
+}
+
+.textAboutPampa p {
+    font-family: var(--font-poppins);
+}
+
+.textAboutPampa .about {
+    background: var(--shade-07);
+    backdrop-filter: blur(10px);
+    padding-top: 10%;
+    gap: 70px;
+    border-radius: 18px;
+}
+
+.teamFede {
+    margin-top: 8%;
+    font-family: var(--font-poppins);
+    padding: 5%;
+}
+
+.teamFede .fundador p {
+    font-size: 16px;
+}
+
+.teamFede .organizers h5 {
+    font-family: var(--font-orbitron);
+    color: var(--shade-04);
+}
+
+.teamFede .organizers {
+    gap: 23px;
+}
+
+.teamFede .organizers hr{
+    color: var(--shade-03);
+    border: 3px var(--shade-03) solid;
+}
+
+.participants{
+    font-family: var(--font-poppins);
+}
+
+.participants h3{
+    font-family: var(--font-orbitron);
+    color: var(--shade-03);
+}
+
+.participants p{
+    font-size: 16px;
+}
+
+.moreAboutPampa{
+    gap: 50px;
+}
+
+.moreAboutPampa h4{
+    font-family: var(--font-orbitron);
+}
+
+.moreAboutPampa .logo{
+    width: 25.622vw;
+    height: 25.622vw;
+    border-radius: 50%;
+    border: 1px var(--shade-05) solid;
+}
