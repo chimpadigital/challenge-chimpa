@@ -204,3 +204,24 @@ p {
 .galery .picture1{
     background: var(--shade-04);
 }
+
+.collaborators{
+    margin-top: 10%;
+    font-family: var(--font-orbitron);
+    gap: 40px;
+}
+
+.collaborators p{
+    font-family: var(--font-poppins);
+}
+
+.collaborators .logos .circle{
+    width: 14.641vw;
+    height: 14.641vw;
+    border-radius: 50%;
+    border: 1px var(--shade-05) solid;
+}
+
+.collaborators .logosContainer{
+    gap: 220px;
+}
