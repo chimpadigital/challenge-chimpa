@@ -96,16 +96,16 @@ p {
     color: var(--shade-04);
 }
 
-.frase {
+.phrase {
     font-family: var(--font-poppins);
     margin-top: 15%;
 }
 
-.fraseShade03 {
+.phraseShade03 {
     color: var(--shade-03);
 }
 
-.fraseShade04 {
+.phraseShade04 {
     color: var(--shade-04);
 }
 
@@ -184,4 +184,23 @@ p {
     height: 25.622vw;
     border-radius: 50%;
     border: 1px var(--shade-05) solid;
+}
+
+.galery{
+    margin-top: 10%;
+    gap: 10px;
+}
+
+.galery h1{
+    font-size: 100px;
+    font-family: var(--font-orbitron);
+}
+
+.galery hr{
+    color: var(--shade-06);
+    border: 1px var(--shade-06) solid;
+}
+
+.galery .picture1{
+    background: var(--shade-04);
 }
