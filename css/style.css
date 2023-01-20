@@ -1,174 +1,197 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 /* Variables */
-:root{
-  --Orbitron: 'Orbitron', sans-serif;
-  --Poppins: 'Poppins', sans-serif;
+:root {
+  --Orbitron: "Orbitron", sans-serif;
+  --Poppins: "Poppins", sans-serif;
 
-  --color-primary-1: #04060A;
-  --color-primary-1b: #16171A;
-  --color-primary-2: #D4B03A;
-  --color-primary-3: #DE79F1;
-  --color-primary-4: #FFFFFF;
+  --color-primary-1: #04060a;
+  --color-primary-1b: #16171a;
+  --color-primary-2: #d4b03a;
+  --color-primary-3: #de79f1;
+  --color-primary-4: #ffffff;
   --color-secondary-1: #626262;
-
 }
 
-
 /* General */
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-
-body{
+body {
   background-color: var(--color-primary-1b);
   cursor: url(../assets/images/mouse.svg), auto;
 }
 
-.separator{
+section{
+  content-visibility: auto;
+}
+
+.separator {
   height: 150px;
   width: 1px;
 }
 
-.btn{
+.btn {
   font-family: var(--Poppins);
   font-size: 16px;
   border-radius: 35px;
 }
 
-.btn:hover{
+.btn:hover {
   cursor: url(../assets/images/pointer.svg), auto;
   border-color: currentColor;
 }
 
-.text-gold{
-  color: #D4B03A;
-}
-
-.text-rose{
-  color: var(--color-primary-3);
-}
-
-.accordion{
-  --bs-accordion-color: var(--color-primary-4);
-  --bs-accordion-border-color:transparent;
-  --bs-accordion-bg: var(--color-primary-1b);
-  --bs-accordion-border-radius: 30px;
-  --bs-accordion-inner-border-radius: 30px;
-  --bs-accordion-active-bg: var(--color-primary-1b);
-  --bs-accordion-active-color:var(--color-primary-4);
-  --bs-accordion-btn-focus-border-color:var(--color-primary-4);
-  --bs-accordion-btn-focus-box-shadow: var(--color-primary-4);
-}
-
-.accordion-button::after{
-  background-image: url(../assets/images/caret-down.svg)
-}
-
-.accordion-button:not(.collapsed)::after{
-  background-image: url(../assets/images/caret-down.svg)
-  
-}
-
-.form-control{
-  background-color: transparent;
-  border: none;
-  outline: 0px;
-}
-
-.form-control:focus{
-  background-color: transparent;
-  border: none;
-  outline: 0px;
-}
-
-
-
-/* Tipografia */
-h1{
-  font-family: var(--Orbitron);
-  font-size: 60px;
-}
-
-h2{
-  font-family: var(--Orbitron);
-  font-size: 48px;
-}
-
-h3{
-  font-family: var(--Orbitron);
-  font-size: 40px;
-}
-
-h4{
-  font-family: var(--Orbitron);
-  font-size: 32px;
-}
-
-h5{
-  font-family: var(--Orbitron);
-  font-size: 24px;
-}
-
-h6{
-  font-family: var(--Poppins);
-  font-size: 20px;
-}
-
-p{
-  font-family: var(--Poppins);
-  font-size: 18px;
-}
-
-span{
-  font-family: var(--Poppins);
-}
-
-a, label, input{
-  font-family: var(--Poppins);
-  font-size: 16px;
-}
-
-a:hover{
-  cursor: url(../assets/images/pointer.svg), auto;
-}
-
-
-
-
-/* Navbar*/
-.btn-gold{
+.btn-gold {
   border: 1px solid var(--color-primary-2);
   color: var(--color-primary-2);
 }
 
+.btn-rose {
+  border: 1px solid var(--color-primary-3);
+  color: var(--color-primary-3);
+}
+
+.btn-white {
+  border: 1px solid var(--color-primary-4);
+  color: var(--color-primary-4);
+}
+
+.text-gold {
+  color: #d4b03a;
+}
+
+.text-rose {
+  color: var(--color-primary-3);
+}
+
+.accordion {
+  --bs-accordion-color: var(--color-primary-4);
+  --bs-accordion-border-color: transparent;
+  --bs-accordion-bg: var(--color-primary-1b);
+  --bs-accordion-border-radius: 30px;
+  --bs-accordion-inner-border-radius: 30px;
+  --bs-accordion-active-bg: var(--color-primary-1b);
+  --bs-accordion-active-color: var(--color-primary-4);
+  --bs-accordion-btn-focus-border-color: var(--color-primary-4);
+  --bs-accordion-btn-focus-box-shadow: var(--color-primary-4);
+}
+
+.accordion-button::after {
+  background-image: url(../assets/images/caret-down.svg);
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url(../assets/images/caret-down.svg);
+}
+
+.form-control {
+  background-color: transparent;
+  border: none;
+  outline: 0px;
+}
+
+.form-control:focus {
+  background-color: transparent;
+  border: none;
+  outline: 0px;
+}
+
+
+.nav-link:hover {
+  color: var(--color-primary-3) !important;
+  border-bottom: 1px solid var(--color-primary-3);
+}
+
+
+/* Tipografia */
+h1 {
+  font-family: var(--Orbitron);
+  font-size: 60px;
+}
+
+h2 {
+  font-family: var(--Orbitron);
+  font-size: 48px;
+}
+
+h3 {
+  font-family: var(--Orbitron);
+  font-size: 40px;
+}
+
+h4 {
+  font-family: var(--Orbitron);
+  font-size: 32px;
+}
+
+h5 {
+  font-family: var(--Orbitron);
+  font-size: 24px;
+}
+
+h6 {
+  font-family: var(--Poppins);
+  font-size: 20px;
+}
+
+p {
+  font-family: var(--Poppins);
+  font-size: 18px;
+}
+
+span {
+  font-family: var(--Poppins);
+}
+
+a,
+label,
+input {
+  font-family: var(--Poppins);
+  font-size: 16px;
+}
+
+a:hover {
+  cursor: url(../assets/images/pointer.svg), auto;
+}
+
+/* Menu */
+.menu {
+  width: 45px;
+  height: 45px;
+}
+
+/* Navbar */
+.nav-ground{
+  background-color: var(--color-primary-1b);
+}
+
 
 /* Banner */
-.banner-container{
-  background: url('../assets/images/Vectores\ mapa\ mundi.png');
+.banner-container {
+  background: url("../assets/images/Vectores\ mapa\ mundi.png");
   height: 90vh;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
 
-.banner-title{
+.banner-title {
   color: var(--color-primary-3);
 }
 
-.btn-white{
+.btn-white {
   border: 1px solid var(--color-primary-4);
   color: var(--color-primary-4);
 }
 
-
 /* About PampaSeg */
-.about-container{
-  background: url('../assets/images/pixeles\ grandes\ magentas.svg');
+.about-container {
+  background: url("../assets/images/pixeles\ grandes\ magentas.svg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -176,7 +199,7 @@ a:hover{
   width: 100%;
 }
 
-.header-about-container{
+.header-about-container {
   display: flex;
   flex-direction: column;
   justify-content: end;
@@ -186,19 +209,19 @@ a:hover{
   background-color: rgba(255, 255, 255, 0.215);
 }
 
-.img-keyboard-about{
+.img-keyboard-about {
   width: 100%;
+  /* max-width: 800px; */
+  object-fit: cover;
 }
 
-.img-pixels-about{
+.img-pixels-about {
   width: 100%;
   height: 200px;
 }
 
-
-
 /* Team */
-.img-container{
+.img-container {
   background-color: var(--color-primary-3);
   width: 300px;
   height: 300px;
@@ -207,22 +230,28 @@ a:hover{
   align-items: center;
 }
 
-.img{
+.img {
   width: 250px;
   height: 250px;
   border-radius: 50%;
 }
 
-.separator-gold{
+.separator-gold {
   height: 5px;
   width: 100%;
   background-color: var(--color-primary-2);
 }
 
 
+/* Event */
+.events-img{
+  width: 100%;
+}
+
+
 
 /* About La Pampa */
-.img-about-container{
+.img-about-container {
   display: flex;
   height: 300px;
   width: 300px;
@@ -237,18 +266,16 @@ a:hover{
   width: 200px;
 }
 
-.container-wikipedia{
+.container-wikipedia {
   margin-right: -30px;
 }
 
-.container-pampa{
+.container-pampa {
   margin-left: -30px;
 }
 
-
-
 /* Galery */
-.img-carousel-container-rose::before{
+.img-carousel-container-rose::before {
   content: "";
   display: block;
   position: absolute;
@@ -258,8 +285,7 @@ a:hover{
   opacity: 0.7;
 }
 
-
-.img-carousel-container-black::before{
+.img-carousel-container-black::before {
   content: "";
   display: block;
   position: absolute;
@@ -269,23 +295,51 @@ a:hover{
   opacity: 0.7;
 }
 
-
-
 /* Contact */
-.container-contact{
-  background: url('../assets/images/contacto-bg.png');
+.container-contact {
+  background: url("../assets/images/contacto-bg.png");
   height: 90vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
-
-.subcontainer-contact{
+.subcontainer-contact {
   background-color: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(15px);
   border-radius: 10px;
   padding: 60px;
   min-width: 600px;
+}
+
+/* Media Query */
+@media (max-width: 1024px) {
+  /* About PampaSeg */
+  .about-container{
+    background: none;
+  }
+  
+}
+
+@media (max-width: 1000px) {
+  
+  /* Banner */
+  .banner-container {
+    background: none;
+  }
+
+  /* Contact */
+  .subcontainer-contact{
+    min-width: 0px;
+    max-width: 400px;
+  }
+}
+
+
+@media (max-width: 1000px) {
+  .header-about-container{
+    justify-content: start;
+    height: auto;
+  }
 }
 
