@@ -3,9 +3,11 @@
     --shade-02: #16171A;
     --shade-03: #d4b03a;
     --shade-04: #de79f1;
+    --shade-04-rgba: rgba(222, 121, 241, 0.45);
     --shade-05: #ffffff;
     --shade-06: #626262;
     --shade-07: #4343437a;
+    --shade-08: #d8d8d8;
     --font-poppins: 'Poppins', sans-serif;
     --font-orbitron: 'Orbitron', sans-serif;
 }
@@ -153,85 +155,135 @@ p {
     gap: 23px;
 }
 
-.teamFede .organizers hr{
+.teamFede .organizers hr {
     color: var(--shade-03);
     border: 3px var(--shade-03) solid;
 }
 
-.participants{
+.participants {
     font-family: var(--font-poppins);
 }
 
-.participants h3{
+.participants h3 {
     font-family: var(--font-orbitron);
     color: var(--shade-03);
 }
 
-.participants p{
+.participants p {
     font-size: 16px;
 }
 
-.moreAboutPampa{
+.moreAboutPampa {
     gap: 50px;
 }
 
-.moreAboutPampa h4{
+.moreAboutPampa h4 {
     font-family: var(--font-orbitron);
 }
 
-.moreAboutPampa .logo{
+.moreAboutPampa .logo {
     width: 25.622vw;
     height: 25.622vw;
     border-radius: 50%;
     border: 1px var(--shade-05) solid;
 }
 
-.galery{
+.galery {
     margin-top: 10%;
     gap: 10px;
 }
 
-.galery h1{
+.galery h1 {
     font-size: 100px;
     font-family: var(--font-orbitron);
 }
 
-.galery hr{
+.galery hr {
     color: var(--shade-06);
     border: 1px var(--shade-06) solid;
 }
 
-.galery .picture1{
+.galery .picture1 {
     background: var(--shade-04);
 }
 
-.collaborators{
+.collaborators {
     margin-top: 10%;
     font-family: var(--font-orbitron);
     gap: 40px;
     height: 650px;
 }
 
-.collaborators p{
+.collaborators p {
     font-family: var(--font-poppins);
 }
 
-.collaborators .logos .circle{
+.collaborators .logos .circle {
     width: 14.641vw;
     height: 14.641vw;
     border-radius: 50%;
     border: 1px var(--shade-05) solid;
 }
 
-.collaborators .logosContainer{
+.collaborators .logosContainer {
     gap: 220px;
 }
 
-.faq .accordion-item{
-    margin-top: 3%; border-radius: 30px; background-color: var(--shade-03);
+.faq .accordion-item {
+    margin-top: 3%;
+    border-radius: 30px;
+    background-color: var(--shade-03);
     border: 1px var(--shade-03) solid;
 }
 
-.faq .accordion-button.collapsed::after{
+.faq .accordion-button.collapsed::after {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23D4B03A'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+.contact {
+    background: linear-gradient(0.25turn, var(--shade-01), var(--shade-04-rgba), var(--shade-01)), url(/images/cybersecurity.png) center center/cover no-repeat;
+    padding: 10%;
+    font-family: var(--font-poppins);
+    filter: saturate(120%); 
+}
+
+.contact h4 {
+    font-family: var(--font-orbitron);
+}
+
+.contact .form {
+    background: var(--shade-07);
+    backdrop-filter: blur(10px);
+    padding: 5%;
+    gap: 40px;
+    border-radius: 20px;
+    border: 1px var(--shade-05) solid;
+}
+
+.contact .form input,
+textarea {
+    background: transparent;
+    border: none;
+    border-bottom: 1px white solid;
+    resize: none;
+    color: var(--shade-05);
+}
+
+.contact .form input::placeholder,
+textarea::placeholder {
+    color: var(--shade-05);
+}
+
+.btn-outline-secondary {
+    color: var(--shade-04);
+    border: 1px var(--shade-04) solid;
+    border-radius: 80px;
+    font-family: var(--font-poppins);
+    background-color: var(--shade-05);
+}
+
+.btn-outline-secondary:hover {
+    background: transparent;
+    border: 1px var(--shade-05) solid;
+    color: var(--shade-05);
 }
