@@ -244,7 +244,7 @@ p {
     background: linear-gradient(0.25turn, var(--shade-01), var(--shade-04-rgba), var(--shade-01)), url(/images/cybersecurity.png) center center/cover no-repeat;
     padding: 10%;
     font-family: var(--font-poppins);
-    filter: saturate(120%); 
+    filter: saturate(120%);
 }
 
 .contact h4 {
@@ -286,4 +286,8 @@ textarea::placeholder {
     background: transparent;
     border: 1px var(--shade-05) solid;
     color: var(--shade-05);
+}
+
+.footer {
+    font-family: var(--font-poppins);
 }
