@@ -26,10 +26,9 @@ body {
   cursor: url(../assets/images/mouse.svg), auto;
 }
 
-section{
+section {
   content-visibility: auto;
 }
-
 
 .separator {
   height: 150px;
@@ -61,7 +60,6 @@ section{
   border: 1px solid var(--color-primary-3);
   color: var(--color-primary-3);
 }
-
 
 .btn-white {
   border: 1px solid var(--color-primary-4);
@@ -114,21 +112,18 @@ section{
   outline: 0px;
 }
 
-
 .nav-link:hover {
   color: var(--color-primary-3) !important;
   border-bottom: 1px solid var(--color-primary-3);
 }
 
-.carousel-control-next-icon{
+.carousel-control-next-icon {
   background-image: url(../assets/images/icons/caret-right.svg);
 }
 
-.carousel-control-prev-icon{
+.carousel-control-prev-icon {
   background-image: url(../assets/images/icons/caret-left.svg);
-  
 }
-
 
 /* Tipografia */
 h1 {
@@ -192,11 +187,9 @@ a:hover {
 }
 
 /* Navbar */
-.nav-ground{
+.nav-ground {
   background-color: var(--color-primary-1b);
 }
-
-
 
 /* Banner */
 .banner-container {
@@ -265,13 +258,10 @@ a:hover {
   background-color: var(--color-primary-2);
 }
 
-
 /* Event */
-.events-img{
+.events-img {
   width: 100%;
 }
-
-
 
 /* About La Pampa */
 .img-about-container {
@@ -297,27 +287,31 @@ a:hover {
   margin-left: -30px;
 }
 
-/* Galery */
-
-/* .img-carousel-container-rose::before {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 600px;
-  background-color: #84618b;
-  opacity: 0.7;
+/* Community */
+.community-img-wrapper {
+  display: flex;
+  justify-content: center;
 }
 
-.img-carousel-container-black::before {
-  content: "";
-  display: block;
-  position: absolute;
+.community-img-container {
+  width: 200px;
+  height: 200px;
+  border: 1px solid lightgray;
+  border-radius: 100%;
+  display: flex;
+  padding: 10px;
+}
+
+.community-img-container-left{
+  margin-left: -6px;
+}
+.community-img-container-right{
+  margin-right: -6px;
+}
+
+.community-img-container > img {
   width: 100%;
-  height: 600px;
-  background-color: var(--color-primary-1);
-  opacity: 0.7;
-} */
+}
 
 /* Contact */
 .container-contact {
@@ -339,45 +333,45 @@ a:hover {
 /* Media Query */
 @media (max-width: 1024px) {
   /* About PampaSeg */
-  .about-container{
+  .about-container {
     background: none;
   }
-  
 }
 
 @media (max-width: 1000px) {
-  
   /* Banner */
   .banner-container {
     background: none;
   }
 
   /* Contact */
-  .subcontainer-contact{
+  .subcontainer-contact {
     min-width: 0px;
     max-width: 400px;
   }
-  
-  .header-about-container{
+
+  .header-about-container {
     justify-content: start;
   }
 }
 
-
 @media (max-width: 768px) {
-  .img-keyboard-about{
+  .img-keyboard-about {
     display: none;
   }
 
-  .text-large{
+  .text-large {
     font-size: 50px;
   }
 }
 
-
 @media (max-width: 500px) {
-  .container-pampa{
+  .container-pampa {
     margin-left: 0px;
   }
-}
 
+  .community-img-container{
+    width: 120px;
+    height: 120px;
+  }
+}
