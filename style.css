@@ -17,31 +17,45 @@ body {
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 4.392vw;
 }
 
 h2 {
-    font-size: 48px;
+    font-size: 3.514vw;
 }
 
 h3 {
-    font-size: 40px;
+    font-size: 2.928vw;
 }
 
 h4 {
-    font-size: 32px;
+    font-size: 2.343vw;
 }
 
 h5 {
-    font-size: 24px;
+    font-size: 1.757vw;
 }
 
 h6 {
-    font-size: 20px;
+    font-size: 1.464vw;
 }
 
-p {
-    font-size: 18px;
+p,
+.btn,
+button,
+.accordion-button,
+input,
+textarea,.nav-item {
+    font-size: 1.318vw;
+}
+
+.subP {
+    font-size: 1.171vw;
+}
+
+.imgPixelsResponsive {
+    width: 25.988vw;
+    height: 9.956vw;
 }
 
 .menu.navbar {
@@ -50,10 +64,9 @@ p {
 }
 
 .links {
-    padding: 0px;
-    gap: 30px;
+    gap: 2.196vw;
     margin: 0.5% 8% 0.5% 5%;
-    font-size: 16px;
+    
 }
 
 .links.navbar-nav .nav-link.active,
@@ -78,11 +91,7 @@ p {
     color: var(--shade-05);
     background: var(--shade-02) url(/images/worldMapVectors.svg) center center/cover no-repeat;
     font-family: var(--font-orbitron);
-    height: 950px;
-}
-
-.textButton h2 {
-    color: var(--shade-04);
+    height: 69.546vw;
 }
 
 .btn-outline-light {
@@ -100,24 +109,21 @@ p {
 
 .phrase {
     font-family: var(--font-poppins);
-    margin-top: 15%;
+    margin: 10% 0 8% 0;
 }
 
-.phraseShade03 {
-    color: var(--shade-03);
-}
-
-.phraseShade04 {
-    color: var(--shade-04);
+.phrase img {
+    width: 3.075vw;
+    height: 3.075vw;
 }
 
 .textAboutPampa {
-
-    gap: 10px;
+    gap: 0.732vw;
 }
 
 .textAboutPampa .aboutBackground {
     background: var(--shade-02) url(/images/largeMagentaPixels.svg) center center/contain no-repeat;
+    margin-bottom: 2%;
 }
 
 .textAboutPampa h4 {
@@ -132,8 +138,13 @@ p {
     background: var(--shade-07);
     backdrop-filter: blur(10px);
     padding-top: 10%;
-    gap: 70px;
+    gap: 5.124vw;
     border-radius: 18px;
+}
+
+.textAboutPampa .imgAndText .image,
+.text {
+    width: 100%;
 }
 
 .teamFede {
@@ -142,17 +153,13 @@ p {
     padding: 5%;
 }
 
-.teamFede .fundador p {
-    font-size: 16px;
-}
-
 .teamFede .organizers h5 {
     font-family: var(--font-orbitron);
     color: var(--shade-04);
 }
 
 .teamFede .organizers {
-    gap: 23px;
+    gap: 1.684vw;
 }
 
 .teamFede .organizers hr {
@@ -169,12 +176,13 @@ p {
     color: var(--shade-03);
 }
 
-.participants p {
-    font-size: 16px;
+.participants .logo {
+    width: 7.321vw;
+    height: 7.321vw;
 }
 
 .moreAboutPampa {
-    gap: 50px;
+    gap: 3.660vw;
 }
 
 .moreAboutPampa h4 {
@@ -188,13 +196,18 @@ p {
     border: 1px var(--shade-05) solid;
 }
 
+.moreAboutPampa .logo img {
+    width: 12.445vw;
+    height: 15.300vw;
+}
+
 .galery {
     margin-top: 10%;
-    gap: 10px;
+    gap: 0.732vw;
 }
 
 .galery h1 {
-    font-size: 100px;
+    font-size: 7.321vw;
     font-family: var(--font-orbitron);
 }
 
@@ -207,11 +220,16 @@ p {
     background: var(--shade-04);
 }
 
+.galery .picture1 img {
+    mix-blend-mode: darken;
+    filter: hue-rotate(70deg) saturate(200%) brightness(50%) sepia(40%);
+}
+
 .collaborators {
     margin-top: 10%;
     font-family: var(--font-orbitron);
-    gap: 40px;
-    height: 650px;
+    gap: 2.928vw;
+    height: 47.584vw;
 }
 
 .collaborators p {
@@ -219,25 +237,41 @@ p {
 }
 
 .collaborators .logos .circle {
-    width: 14.641vw;
-    height: 14.641vw;
+    width: 14.141vw;
+    height: 14.141vw;
     border-radius: 50%;
     border: 1px var(--shade-05) solid;
 }
 
+.collaborators .logos .circle .logo {
+    width: 12vw;
+    height: 15vw;
+}
+
 .collaborators .logosContainer {
-    gap: 220px;
+    gap: 16.105vw;
 }
 
 .faq .accordion-item {
     margin-top: 3%;
-    border-radius: 30px;
+    border-radius: 8px;
     background-color: var(--shade-03);
     border: 1px var(--shade-03) solid;
 }
 
 .faq .accordion-button.collapsed::after {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23D4B03A'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+
+}
+
+.faq button {
+    background-color: var(--shade-02);
+    border: 1px var(--shade-03) solid;
+    padding: 1%;
+}
+
+.faq .accordion-button:not(.collapsed) {
+    background-color: var(--shade-02);
 }
 
 .contact {
@@ -255,9 +289,10 @@ p {
     background: var(--shade-07);
     backdrop-filter: blur(10px);
     padding: 5%;
-    gap: 40px;
-    border-radius: 20px;
+    gap: 2.928vw;
+    border-radius: 15px;
     border: 1px var(--shade-05) solid;
+    width: 50%;
 }
 
 .contact .form input,
@@ -290,4 +325,143 @@ textarea::placeholder {
 
 .footer {
     font-family: var(--font-poppins);
+}
+
+.logoPampa {
+    width: 9.981vw;
+}
+
+.footer .logoPhone {
+    width: 1.245vw;
+    height: 1.537vw;
+}
+
+.footer .logoInstagram {
+    width: 1.391vw;
+    height: 1.464vw;
+}
+
+.footer .logoTrex {
+    width: 6.515vw;
+    height: 4.466vw;
+}
+
+@media screen and (max-width:991px) {
+
+    .collapse,
+    .links {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin: 1%;
+    }
+
+    .links.navbar-nav .nav-link.active,
+    .navbar-nav .show>.nav-link {
+        border: none;
+    }
+}
+
+@media screen and (max-width:600px) {
+    h1 {
+        font-size: 2.928vh;
+    }
+
+    h2 {
+        font-size: 2.343vh;
+    }
+
+    h3 {
+        font-size: 1.757vh;
+    }
+
+    h4 {
+        font-size: 1.464vh;
+    }
+
+    h5 {
+        font-size: 1.318vh;
+    }
+
+    h6 {
+        font-size: 1.171vh;
+    }
+
+    p,
+    .btn,
+    button,
+    .accordion-button,
+    input,
+    textarea,.nav-item {
+        font-size: 1.025vh;
+    }
+
+    .subP {
+        font-size: 0.732vh;
+    }
+
+    .links {
+        gap: 2.196vh;
+    }
+
+    .header {
+        height: 69.546vh;
+    }
+
+    .phrase img {
+        width: 3.075vh;
+        height: 3.075vh;
+    }
+
+    .textAboutPampa .imgAndText {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .participants .participantsRow {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .participants .logo {
+        width: 6.321vh;
+        height: 6.321vh;
+    }
+
+    .galery h1 {
+        font-size: 4.832vh;
+    }
+
+    .collaborators {
+        min-height: 35.584vh;
+    }
+
+    .collaborators .logosContainer {
+        gap: 16.105vh;
+    }
+
+    .contact .form {
+        gap: 2.928vh;
+        width: 75%;
+    }
+
+    .footer .logoPampa {
+        width: 7.981vh;
+    }
+
+    .footer .logoPhone {
+        width: 1.245vh;
+        height: 1.537vh;
+    }
+
+    .footer .logoInstagram {
+        width: 1.391vh;
+        height: 1.464vh;
+    }
+
+    .footer .logoTrex {
+        width: 6vh;
+        height: 4vh;
+    }
 }

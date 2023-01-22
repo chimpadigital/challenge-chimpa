@@ -19,10 +19,10 @@
 <body>
 
     <!-- navbar -->
-    <nav class="menu navbar navbar-expand-lg " data-bs-theme="dark">
+    <nav class="menu navbar navbar-dark navbar-expand-lg " data-bs-theme="dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#" style="margin: 0.5% 5% 0.5% 5%;">
-                <img src="./images/logoPampaSeg.svg" alt="">
+                <img src="./images/logoPampaSeg.svg" class="img-fluid" alt="" >
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -30,7 +30,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav d-flex flex-row align-items-center links">
+                <ul class="navbar-nav links subP">
                     <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="#">HOME</a>
                     </li>
@@ -59,24 +59,24 @@
 
     <!-- header -->
     <div class="header d-flex flex-row">
-        <div class="container w-50 d-flex flex-row align-items-center">
-            <img src="./images/pixelsMagenta.svg" alt="">
+        <div class="container w-25 d-flex flex-row align-items-center">
+            <img src="./images/pixelsMagenta.svg" class="img-fluid" alt="">
         </div>
-        <div class="textButton container d-flex flex-column justify-content-center">
-            <div class="d-flex flex-column" style="gap: 50px;">
+        <div class="w-50 d-flex flex-column justify-content-center">
+            <div class="d-flex flex-column" style="gap: 3.660vw;">
                 <h5 class="text-center">
                     UNA DE LAS CONFERENCIAS MAS HISTORICAS DE <br> LATINOAMERICA EN
                 </h5>
-                <h2 class="text-center">
+                <h2 class="text-center text-break" style="color: var(--shade-04);">
                     SEGURIDAD <br> INFORMATICA
                 </h2>
             </div>
-            <div class="row justify-content-center" style="margin-top: 30px;">
+            <div class="row justify-content-center" style="margin-top: 2.196vw;">
                 <button class="btn btn-outline-light" style="width: 40%;">VER MÁS</button>
             </div>
         </div>
-        <div class="container w-50 d-flex flex-row">
-            <svg width="355" height="136" viewBox="0 0 355 136" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <div class="container w-25 d-flex flex-row">
+            <svg class="imgPixelsResponsive" viewBox="0 0 355 136" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0_519_7585)">
                     <path d="M322.934 47.6799H306.985V31.7959H322.934V47.6799Z" fill="#D4B03A" />
                     <path d="M322.972 15.884V31.7587H338.92V47.6427H322.972V63.5173H355V15.884H322.972Z"
@@ -107,15 +107,16 @@
     <!-- phrase -->
     <div class="d-flex flex-column align-items-center phrase">
         <div class="container-fluid" style="margin: 0;padding: 0;">
-            <div style="margin-left: 25%; margin-bottom: 6%;">
+            <div style="margin-left: 12.5%; margin-bottom: 6%;">
                 <img src="./images/comillas.svg" alt="">
             </div>
         </div>
-        <h4 class="w-50 text-light">
+        <h4 class="w-75 text-light">
             Saliendo de una descripción poética y yendo a la dura literalidad, PampaSeg es una conferencia que se
-            realiza todos los años, con un simple pero único fin, la <span class="phraseShade03"> integración de nuevas
+            realiza todos los años, con un simple pero único fin, la <span style="color: var(--shade-03);"> integración
+                de nuevas
                 tecnologías, compartir conocimientos, pensamientos, experiencias y vivencias.</span> <br> <span
-                class="phraseShade04"> Es libre,
+                style="color: var(--shade-04);"> Es libre,
                 es gratuito, y es orgullosamente pampeano, como el Caldén.</span> <br>
             Año tras año recorremos el mundo participando de las conferencias más importantes, recopilando y replicando
             todos aquellos contenidos que consideramos son útiles para nuestra comunidad.
@@ -141,16 +142,16 @@
             </div>
         </div>
 
-        <div class="d-flex">
-            <div class="w-50">
+        <div class="d-flex imgAndText">
+            <div class="image">
                 <img src="./images/keyboradImage.png" style="width: 100%;" alt="">
             </div>
-            <div class="w-50 d-flex flex-column align-items-center bg-light" style="padding-right: 1%;">
+            <div class="d-flex flex-column align-items-center bg-light text" style="padding-right: 1%;">
                 <div class="w-100 d-flex flex-row justify-content-end">
-                    <img src="./images/pixelsMagentaRotate.svg" alt="">
+                    <img src="./images/pixelsMagentaRotate.svg" alt="" class="imgPixelsResponsive">
                 </div>
 
-                <div id="carouselExampleDark" class="carousel carousel-dark slide h-100">
+                <div id="carouselExampleDark" class="carousel carousel-dark slide h-100" style="min-height: 24vh;">
                     <div class="carousel-inner">
                         <div class="carousel-item active" data-bs-interval="10000">
                             <p style="padding: 0 15% 0 15%;">
@@ -194,13 +195,13 @@
 
     <!-- organizers -->
     <div class="teamFede text-light d-flex flex-row text-center">
-        <div class="d-flex flex-column justify-content-center align-items-center w-50 fundador" style="gap: 40px;">
-            <img src="./images/fotoFede.png" alt="">
+        <div class="d-flex flex-column justify-content-center align-items-center w-50 fundador" style="gap: 2.928vw;">
+            <img src="./images/fotoFede.png" alt="" style="width: 25.183vw;height: 25.549vw;">
             <div>
                 <h6>
                     Federico Bustos Reyes
                 </h6>
-                <p>
+                <p class="subP">
                     Fundador
                 </p>
             </div>
@@ -219,55 +220,59 @@
     </div>
 
     <!-- participants -->
-    <div class="participants d-flex flex-row align-items-end" style="margin: 10%;">
-        <div class="w-50 text-light">
-            <div>
-                <h3>
-                    En estos últimos 11 <br> años hemos <img src="./images/handPixel.svg" alt=""
-                        style="margin: 1% 0 0 5%; position: absolute;"> <br> participado de <br> eventos como:
-                </h3>
-                <p>
-                    Lorem ipsum dolor sit amet, conLorem ipsum dolor <br> sit amet, conLorem ipsum dolor sit amet,
-                    conLorem <br>
-                    ipsum dolor sit amet, con
-                </p>
+    <div class="participants container-fluid" style="padding: 10%;">
+        <div class="row d-flex justify-content-between w-100 participantsRow">
+            <div class="text-light col">
+                <div class="d-flex flex-column align-items-center">
+                    <h3>
+                        En estos últimos 11 <br> años hemos <img src="./images/handPixel.svg" alt=""
+                            style="margin: 1% 0 0 5%; " class="position-absolute logo"> <br> participado de <br> eventos
+                        como:
+                    </h3>
+                    <p class="subP">
+                        Lorem ipsum dolor sit amet, conLorem ipsum dolor <br> sit amet, conLorem ipsum dolor sit amet,
+                        conLorem <br>
+                        ipsum dolor sit amet, con
+                    </p>
+                </div>
+            </div>
+            <div class="container-fluid col">
+                <div class="row">
+                    <div class="col d-flex justify-content-center align-items-center">
+                        <img src="./images/logoDefcon.svg" alt="" class="logo">
+                    </div>
+                    <div class="col d-flex justify-content-center align-items-center">
+                        <img src="./images/logoBlackhat.svg" alt="" class="logo">
+                    </div>
+                    <div class="col d-flex justify-content-center align-items-center">
+                        <img src="./images/logoDragonjar.svg" alt="" class="logo">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col d-flex justify-content-center align-items-center">
+                        <img src="./images/logoOsint.svg" alt="" class="logo">
+                    </div>
+                    <div class="col d-flex justify-content-center align-items-center">
+                        <img src="./images/logoCa.svg" alt="" class="logo">
+                    </div>
+                    <div class="col d-flex justify-content-center align-items-center">
+                        <img src="./images/logoH2hc.svg" alt="" class="logo">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col d-flex justify-content-center align-items-center">
+                        <img src="./images/logoParanaconf.svg" alt="" class="logo">
+                    </div>
+                    <div class="col d-flex justify-content-center align-items-center">
+                        <img src="./images/logoAutodefensadigital.svg" alt="" class="logo">
+                    </div>
+                    <div class="col d-flex justify-content-center align-items-center">
+                        <img src="./images/logoCh.svg" alt="" class="logo">
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="container w-50 d-flex flex-column justify-content-center">
-            <div class="row">
-                <div class="col d-flex justify-content-center align-items-center">
-                    <img src="./images/logoDefcon.svg" alt="">
-                </div>
-                <div class="col d-flex justify-content-center align-items-center">
-                    <img src="./images/logoBlackhat.svg" alt="">
-                </div>
-                <div class="col d-flex justify-content-center align-items-center">
-                    <img src="./images/logoDragonjar.svg" alt="">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col d-flex justify-content-center align-items-center">
-                    <img src="./images/logoOsint.svg" alt="">
-                </div>
-                <div class="col d-flex justify-content-center align-items-center">
-                    <img src="./images/logoCa.svg" alt="">
-                </div>
-                <div class="col d-flex justify-content-center align-items-center">
-                    <img src="./images/logoH2hc.svg" alt="">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col d-flex justify-content-center align-items-center">
-                    <img src="./images/logoParanaconf.svg" alt="">
-                </div>
-                <div class="col d-flex justify-content-center align-items-center">
-                    <img src="./images/logoAutodefensadigital.svg" alt="">
-                </div>
-                <div class="col d-flex justify-content-center align-items-center">
-                    <img src="./images/logoCh.svg" alt="">
-                </div>
-            </div>
-        </div>
+
     </div>
 
     <!-- more about pampa -->
@@ -275,13 +280,13 @@
         <h4 class="text-center text-light">
             Más sobre la Pampa
         </h4>
-        <div class="d-flex justify-content-center align-items-center">
-            <div class="logo d-flex justify-content-center align-items-center position-absolute"
-                style="margin-right: 22%;">
+        <div class="d-flex justify-content-center align-items-center position-relative" style="height: 25vw;">
+            <div class="logo d-flex justify-content-center align-items-center position-absolute logoLeft"
+                style="left: 26%;">
                 <img src="./images/logoWikipedia.svg" alt="">
             </div>
-            <div class="logo d-flex justify-content-center align-items-center position-static"
-                style="margin-left: 22%;">
+            <div class="logo d-flex justify-content-center align-items-center position-absolute logoRight"
+                style="right: 26%;">
                 <img src="./images/logoLapampa.svg" alt="">
             </div>
         </div>
@@ -297,8 +302,7 @@
         <hr class="w-75">
         <div class="d-flex">
             <div class="w-50 picture1">
-                <img src="./images/programmerWorking.png" alt="" class="w-100"
-                    style="mix-blend-mode: darken; filter: hue-rotate(70deg) saturate(200%) brightness(50%) sepia(40%);">
+                <img src="./images/programmerWorking.png" alt="" class="w-100">
             </div>
             <div class="w-50">
                 <img src="./images/cpu.png" alt="" class="w-100" style="filter: grayscale(100%);">
@@ -306,7 +310,8 @@
         </div>
         <div class="w-100 d-flex align-items-center">
             <div class="w-25">
-                <img src="./images/pixelsMagentaRotate.svg" alt="" style="transform: rotateY(180deg);">
+                <img src="./images/pixelsMagentaRotate.svg" alt="" class="imgPixelsResponsive"
+                    style="transform: rotateY(180deg);">
             </div>
             <div class="d-flex justify-content-center align-items-center position-absolute w-100">
                 <hr class="w-75 ">
@@ -329,19 +334,19 @@
                 <div class="container m-0" style="width: 55%;">
                     <div class="logos position-relative row">
                         <div class="circle col position-absolute d-flex justify-content-center align-items-center">
-                            <img src="./images/logoDragonjar.svg" alt="">
+                            <img src="./images/logoDragonjar.svg" alt="" class="logo">
                         </div>
                         <div class="circle col position-absolute d-flex justify-content-center align-items-center"
                             style="left: 13.177vw;">
-                            <img src="./images/logoSaso.svg" alt="">
+                            <img src="./images/logoSaso.svg" alt="" class="logo">
                         </div>
                         <div class="circle col position-absolute d-flex justify-content-center align-items-center"
                             style="left: 26.354vw;">
-                            <img src="./images/logoToolswatch.svg" alt="">
+                            <img src="./images/logoToolswatch.svg" alt="" class="logo">
                         </div>
                         <div class="circle col position-absolute d-flex justify-content-center align-items-center"
                             style="left: 39.531vw;">
-                            <img src="./images/logoArtsSEC.svg" alt="">
+                            <img src="./images/logoArtsSEC.svg" alt="" class="logo">
                         </div>
                     </div>
                 </div>
@@ -350,19 +355,19 @@
                 <div class="container m-0" style="width: 55%;">
                     <div class="logos position-relative row">
                         <div class="circle col position-absolute d-flex justify-content-center align-items-center">
-                            <img src="./images/logoCintainfinito.svg" alt="">
+                            <img src="./images/logoCintainfinito.svg" alt="" class="logo">
                         </div>
                         <div class="circle col position-absolute d-flex justify-content-center align-items-center"
                             style="left: 13.177vw;">
-                            <img src="./images/logo8.8.svg" alt="">
+                            <img src="./images/logo8.8.svg" alt="" class="logo">
                         </div>
                         <div class="circle col position-absolute d-flex justify-content-center align-items-center"
                             style="left: 26.354vw;">
-                            <img src="./images/logoOwasp.svg" alt="">
+                            <img src="./images/logoOwasp.svg" alt="" class="logo">
                         </div>
                         <div class="circle col position-absolute d-flex justify-content-center align-items-center"
                             style="left: 39.531vw;">
-                            <img src="./images/logoHamping.svg" alt="">
+                            <img src="./images/logoHamping.svg" alt="" class="logo">
                         </div>
                     </div>
                 </div>
@@ -378,16 +383,18 @@
                     <h2 class="accordion-header" id="headingOne">
                         <button class="accordion-button collapsed text-light" type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne"
-                            style="border-radius: 50px; background-color: var(--shade-02); border: 2px var(--shade-03) solid;">
+                            style="border-radius: 8px;">
                             ¿Pampaseg tiene algún fin de lucro?
                         </button>
                     </h2>
                     <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus repudiandae unde
-                            dolores, veniam eum tenetur alias dolore non, quam rerum placeat voluptatem, hic optio.
-                            Tempore sapiente magnam nemo praesentium delectus!
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus repudiandae unde
+                                dolores, veniam eum tenetur alias dolore non, quam rerum placeat voluptatem, hic optio.
+                                Tempore sapiente magnam nemo praesentium delectus!
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -395,16 +402,18 @@
                     <h2 class="accordion-header" id="headingTwo">
                         <button class="accordion-button collapsed text-light" type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"
-                            style="border-radius: 50px; background-color: var(--shade-02); border: 2px var(--shade-03) solid;">
+                            style="border-radius: 8px;">
                             Pero entonces, ¿Cómo se funancian?
                         </button>
                     </h2>
                     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim, et unde? Laboriosam
-                            perferendis quas earum inventore voluptatem debitis aspernatur facilis ducimus accusantium
-                            itaque, autem sit quidem consequuntur, corrupti, deserunt fuga!
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus repudiandae unde
+                                dolores, veniam eum tenetur alias dolore non, quam rerum placeat voluptatem, hic optio.
+                                Tempore sapiente magnam nemo praesentium delectus!
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -412,16 +421,18 @@
                     <h2 class="accordion-header" id="headingThree">
                         <button class="accordion-button collapsed text-light" type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"
-                            style="border-radius: 50px; background-color: var(--shade-02); border: 2px var(--shade-03) solid;">
+                            style="border-radius: 8px;">
                             Perfecto, pero si no ganan nada, ¿Por qué lo hacen?
                         </button>
                     </h2>
                     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus fugiat quia qui velit
-                            ad repudiandae minus vitae dicta rerum incidunt magni accusamus amet, saepe sunt in at quos
-                            modi earum!
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus repudiandae unde
+                                dolores, veniam eum tenetur alias dolore non, quam rerum placeat voluptatem, hic optio.
+                                Tempore sapiente magnam nemo praesentium delectus!
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -429,16 +440,18 @@
                     <h2 class="accordion-header" id="headingFour">
                         <button class="accordion-button collapsed text-light" type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour"
-                            style="border-radius: 50px; background-color: var(--shade-02); border: 2px var(--shade-03) solid;">
+                            style="border-radius: 8px;">
                             ¿Los disertantes, tutores, cobran por participar?
                         </button>
                     </h2>
                     <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt, deserunt, atque omnis iure
-                            vero ad nihil laboriosam ducimus nemo ratione iusto corrupti deleniti perspiciatis
-                            explicabo. Molestiae ab possimus consequuntur esse.
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus repudiandae unde
+                                dolores, veniam eum tenetur alias dolore non, quam rerum placeat voluptatem, hic optio.
+                                Tempore sapiente magnam nemo praesentium delectus!
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -446,19 +459,19 @@
         </div>
         <div class="w-25 d-flex flex-row justify-content-end">
             <div>
-                <img src="./images/magentaSquares.svg" alt="">
+                <img src="./images/magentaSquares.svg" alt="" style="width: 11.054vw; height: 11.201vw;">
             </div>
         </div>
     </div>
 
     <!-- contact -->
     <div class="contact w-100">
-        <div class="w-50 form text-light d-flex flex-column position-relative">
+        <div class="form text-light d-flex flex-column position-relative">
             <h6>
                 ¿Te quedan dudas?
             </h6>
             <div class="position-absolute d-flex justify-content-end" style="width: 90%;">
-                <img src="./images/pixelsMagentaRotate.svg" alt="" style="height: 90px;">
+                <img src="./images/pixelsMagentaRotate.svg" alt="" style="height: 6.589vw;">
             </div>
             <h4>
                 Ponete en contacto con nosotros.
@@ -473,16 +486,16 @@
 
     <!-- footer -->
     <div class="footer d-flex justify-content-center m-5 position-relative">
-        <div class="d-flex flex-column text-light text-center" style="gap: 30px;">
+        <div class="d-flex flex-column text-light text-center" style="gap: 2.196vw;">
             <div>
-                <img src="./images/logoPampaSeg.svg" alt="" style="width: 150px;">
+                <img src="./images/logoPampaSeg.svg" alt="" class="logoPampa">
             </div>
-            <p><img src="./images/phone.svg" alt=""> +54 9 11 4991-3432 / <img src="./images/instagram.svg" alt="">
+            <p><img src="./images/phone.svg" alt="" class="logoPhone"> +54 9 11 4991-3432 / <img src="./images/instagram.svg" alt="" class="logoInstagram">
                 f@psg.sh</p>
-            <p style="font-size: 16px; color: var(--shade-03);">© Copyright 2019 - Lift Media</p>
+            <p class="subP" style="color: var(--shade-03);">© Copyright 2019 - Lift Media</p>
         </div>
-        <div class="position-absolute" style="margin-left: 45%;">
-            <img src="./images/t-rex.svg" alt="">
+        <div class="position-absolute" style="margin-left: 50vw;">
+            <img src="./images/t-rex.svg" alt="" class="logoTrex">
         </div>
     </div>
 
