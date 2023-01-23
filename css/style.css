@@ -21,9 +21,19 @@
   box-sizing: border-box;
 }
 
+
 body {
   background-color: var(--color-primary-1b);
   cursor: url(../assets/images/mouse.svg), auto;
+}
+
+body::-webkit-scrollbar{
+  width: 7px;
+}
+
+body::-webkit-scrollbar-thumb{
+  background-color: var(--color-primary-3);
+  border-radius: 20px;
 }
 
 section {
