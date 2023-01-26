@@ -45,13 +45,16 @@ p,
 button,
 .accordion-button,
 input,
-textarea,
-.nav-item {
-    font-size: 1.14vw;
+textarea {
+    font-size: 1.318vw;
 }
 
 .subP {
     font-size: 1.171vw;
+}
+
+.nav-item {
+    font-size: 1.14vw;
 }
 
 .imgPixelsResponsive {
@@ -138,7 +141,7 @@ textarea,
 .textAboutPampa .about {
     background: var(--shade-07);
     backdrop-filter: blur(10px);
-    padding-top: 10%;
+    padding: 10% 3% 3% 3%;
     gap: 5.124vw;
     border-radius: 18px;
 }
