@@ -45,7 +45,8 @@ p,
 button,
 .accordion-button,
 input,
-textarea,.nav-item {
+textarea,
+.nav-item {
     font-size: 1.318vw;
 }
 
@@ -66,7 +67,7 @@ textarea,.nav-item {
 .links {
     gap: 2.196vw;
     margin: 0.5% 8% 0.5% 5%;
-    
+
 }
 
 .links.navbar-nav .nav-link.active,
@@ -295,6 +296,10 @@ textarea,.nav-item {
     width: 50%;
 }
 
+.contact .form form {
+    gap: 2.928vw;
+}
+
 .contact .form input,
 textarea {
     background: transparent;
@@ -392,7 +397,8 @@ textarea::placeholder {
     button,
     .accordion-button,
     input,
-    textarea,.nav-item {
+    textarea,
+    .nav-item {
         font-size: 1.025vh;
     }
 
@@ -444,6 +450,10 @@ textarea::placeholder {
     .contact .form {
         gap: 2.928vh;
         width: 75%;
+    }
+
+    .contact .form form {
+        gap: 2.928vh;
     }
 
     .footer .logoPampa {
