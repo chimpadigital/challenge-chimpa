@@ -47,7 +47,7 @@ button,
 input,
 textarea,
 .nav-item {
-    font-size: 1.318vw;
+    font-size: 1.14vw;
 }
 
 .subP {
@@ -65,7 +65,7 @@ textarea,
 }
 
 .links {
-    gap: 2.196vw;
+    gap: 1.5vw;
     margin: 0.5% 8% 0.5% 5%;
 
 }
@@ -407,7 +407,7 @@ textarea::placeholder {
     }
 
     .links {
-        gap: 2.196vh;
+        gap: 1.5vh;
     }
 
     .header {
